@@ -71,16 +71,30 @@ h2 {
 
 .skill-item {
     background: #f8f9fa;
-    padding: 0.8rem;
+    padding: 1rem;
     border-radius: 5px;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
     transition: transform 0.2s;
+    position: relative;
+    color: #2c3e50;
 }
 
 .skill-item:hover {
     transform: translateY(-2px);
     background: #e9ecef;
+}
+
+.skill-item .sub-skills {
+    font-size: 0.8rem;
+    color: #666;
+    margin-top: 0.3rem;
+    font-weight: normal;
+}
+
+.php {
+    border-left: 4px solid #8993be;
 }
 
 /* Projects Section */
